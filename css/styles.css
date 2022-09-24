@@ -60,10 +60,6 @@ body {
 }
 
 
-.link:visited {
-    color: inherit;
-}
-
 /* Contacts */
 
 .contacts .link {
@@ -172,10 +168,6 @@ footer {
     text-decoration: none;
 }
 
-.physical-address:visited {
-    color: var(--white-color);
-}
-
 .physical-address:hover,
 .physical-address:focus {
     color: var(--accent-color);
@@ -221,7 +213,12 @@ footer {
     letter-spacing: 0.03em;
 }
 
+.link:visited {
+    color: inherit;
+}
+
 .link:hover,
-.link:focus {
+.link:focus,
+.link:active {
     color: var(--accent-color);
 }
