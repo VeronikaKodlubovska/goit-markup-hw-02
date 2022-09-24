@@ -43,7 +43,7 @@ body {
     cursor: pointer;
 }
 
-.logo>.accent,
+.accent,
 .logo:hover,
 .logo:focus {
     color: var(--accent-color);
