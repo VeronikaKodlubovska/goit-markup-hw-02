@@ -59,6 +59,9 @@ body {
     text-decoration: none;
 }
 
+.site-nav .link {
+    color: var(--main-text-color);
+}
 
 /* Contacts */
 
