@@ -15,6 +15,7 @@
     --other-text-color: #757575;
     --accent-color: #2196F3;
     --background-footer: #2F303A;
+    --background-color-persons-section: #F5F4FA;
     --white-color: #ffffff;
     --black-color: #000000;
     --background-filter: #F5F4FA;
@@ -57,10 +58,6 @@ body {
 
 .link {
     text-decoration: none;
-}
-
-.site-nav .link {
-    color: var(--main-text-color);
 }
 
 /* Contacts */
@@ -126,6 +123,14 @@ body {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em
+}
+
+.persons-section {
+    background-color: var(--background-color-persons-section);
+}
+
+.persons-item {
+    background-color: var(--white-color);
 }
 
 .work-title,
@@ -221,6 +226,7 @@ footer {
     color: inherit;
 }
 
+.main-page.link,
 .link:hover,
 .link:focus,
 .link:active {
